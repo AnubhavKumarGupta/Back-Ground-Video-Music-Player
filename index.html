@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anubhav Music Player</title>
+  <link rel="icon" href="image/icon7.jpg" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <div class="video-background">
+    <video autoplay loop muted>
+      <source src="videos/vid1.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="music">
+    <h2 class="title">Click on Play Button</h2>
+    <div class="player">
+      <div class="btns">
+        <span class="prev">
+          <ion-icon name="play-back-outline"></ion-icon>
+        </span>
+        <span class="playPause">
+          <ion-icon name="play-outline"></ion-icon>
+        </span>
+        <span class="next">
+          <ion-icon name="play-forward-outline"></ion-icon>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./index.js"></script>
+<script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
